@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build app" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="docker-registry-manager" />
+    <working_directory value="$PROJECT_DIR$/app" />
+    <parameters value="--log-level debug --registries &quot;../registries.yml&quot;" />
+    <kind value="PACKAGE" />
+    <package value="github.com/snagles/docker-registry-manager/app" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <output_directory value="$PROJECT_DIR$/bin" />
+    <method v="2" />
+  </configuration>
+</component>

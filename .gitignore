@@ -8,3 +8,5 @@ app/logs/log.json
 .idea
 test/registrytest/configs/auth/*
 test/registrytest/storage/*
+bin/*
+app/vendor/*
